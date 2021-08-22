@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "120912824491",
+    "project_id": "piano-test-26f1c",
+    "storage_bucket": "piano-test-26f1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120912824491:android:7b61623f6eb01fe9138fee",
+        "android_client_info": {
+          "package_name": "com.bhogayatakb.piano"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120912824491-32rukcvvh9ont4m3698at3t4h7h3ohvh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bhogayatakb.piano",
+            "certificate_hash": "fd3487442119bdbf9664bd16978ddc0d8c5d2341"
+          }
+        },
+        {
+          "client_id": "120912824491-4f28cd9is0rjg4g48vt8el1o2ulvpfit.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6he2vTVI9yJVtBKOKXGjFpqWY-iwdnGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120912824491-4f28cd9is0rjg4g48vt8el1o2ulvpfit.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

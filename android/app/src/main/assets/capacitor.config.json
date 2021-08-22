@@ -1,0 +1,6 @@
+{
+	"appId": "com.bhogayatakb.piano",
+	"appName": "ionicpiano",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

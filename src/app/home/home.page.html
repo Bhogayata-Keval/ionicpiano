@@ -1,20 +1,45 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Sign In
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-button (click)="googleSignUp()">Sign In</ion-button>
+  <ion-card>
+    <ion-card-content>
+      {{ userInfo ? userInfo.name : "" }}
+      {{ userInfo ? userInfo.email : "" }}
+      <br/>
+      <!-- <button (click)="showNoteList()">Show Options</button> -->
+      <!-- <div id="note-list"></div> -->
+      <!-- <button [ngIf]="true; else showNoteList" color='secondary' ion-button>Default</button> -->
+    
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+    <ion-label *ngFor="let clip of ALL_AUDIO_CLIPS">
+      <!-- This will be your heading qhtext -->
+      <input type="checkbox" name="notes[]" checked="checked" (change)="checkUpdates()" value={{clip}}>{{clip}}
+    
+    </ion-label>
+        {{checkboxes}} 
+        <br/><br/><br/><button (click)="updateAll(0)">Uncheck All</button>
+        <br/><br/><button (click)="updateAll(1)">Check All</button>
+      
+
+      <br/><br/><br/>
+      <p>How many times should the note be played ?</p>
+      <input type="number" id="repeat-count" [value]="repeatCount ? repeatCount : 3">
+      <br/><br/><br/>
+      <p>Gap between consecutive notes ?</p>
+      <input type="number" id="gap-among-notes" value ="2">
+      <br/><br/><br/>
+      <button (click)="playRandomNote()">Play a Random Note</button>
+      <button (click)="checkAnswer()">Check Answer</button>
+      <p id="answer-display"></p>
+
+      <input type="hidden" id="note-answer">
+    </ion-card-content>
+  </ion-card>
 </ion-content>

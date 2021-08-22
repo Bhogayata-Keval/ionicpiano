@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ionicpiano</string>
+    <string name="title_activity_main">ionicpiano</string>
+    <string name="package_name">com.bhogayatakb.piano</string>
+    <string name="custom_url_scheme">com.bhogayatakb.piano</string>
+    <string name="service_client_id">120912824491-4f28cd9is0rjg4g48vt8el1o2ulvpfit.apps.googleusercontent.com</string>
+</resources>
