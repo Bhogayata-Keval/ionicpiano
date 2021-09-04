@@ -2,5 +2,20 @@
 	"appId": "com.bhogayatakb.piano",
 	"appName": "ionicpiano",
 	"webDir": "www",
-	"bundledWebRuntime": false
+	"npmClient": "npm",
+	"bundledWebRuntime": false,
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 0
+		},
+		"GoogleAuth": {
+			"scopes": [
+				"profile",
+				"email"
+			],
+			"serviceClientId": "120912824491-4f28cd9is0rjg4g48vt8el1o2ulvpfit.apps.googleusercontent.com",
+			"forceCodeForRefreshToken": true
+		}
+	},
+	"cordova": {}
 }

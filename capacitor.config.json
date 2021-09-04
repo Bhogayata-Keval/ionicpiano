@@ -17,5 +17,8 @@
 			"forceCodeForRefreshToken" : true
 		}
 	},
-	"cordova": {}
+	"cordova": {},
+	"server": {
+		"url": "https://piano-test-26f1c.web.app/home"
+	 }
 }

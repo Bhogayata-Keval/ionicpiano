@@ -14,7 +14,15 @@
       },
       "oauth_client": [
         {
-          "client_id": "120912824491-32rukcvvh9ont4m3698at3t4h7h3ohvh.apps.googleusercontent.com",
+          "client_id": "120912824491-a7omp65hnoh1medv356pu6pt4dcege20.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bhogayatakb.piano",
+            "certificate_hash": "1d507db8452572f6f1a9e6bbfd076f940d4f876d"
+          }
+        },
+        {
+          "client_id": "120912824491-lff8r4q8h5vm2nlv4sv5vhdfe3q04fic.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.bhogayatakb.piano",
